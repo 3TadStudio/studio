@@ -5,6 +5,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>3TAD Studio — Video Editing &amp; 3D Animation</title>
 <meta name="description" content="3TAD Studio is a boutique video editing and 3D animation house building visuals for brands, films, and products.">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="video editing studio, 3D animation studio, post-production, motion graphics, color grading, 3D modeling, CGI animation, 3TAD Studio">
+<meta name="author" content="3TAD Studio">
+<meta name="theme-color" content="#0B0E13">
+<link rel="canonical" href="https://3tadstudio.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="3TAD Studio">
+<meta property="og:title" content="3TAD Studio — Video Editing &amp; 3D Animation">
+<meta property="og:description" content="3TAD Studio is a boutique video editing and 3D animation house building visuals for brands, films, and products.">
+<meta property="og:url" content="https://3tadstudio.com/">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AR">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="3TAD Studio — Video Editing &amp; 3D Animation">
+<meta name="twitter:description" content="3TAD Studio is a boutique video editing and 3D animation house building visuals for brands, films, and products.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "3TAD Studio",
+  "description": "3TAD Studio is a boutique video editing and 3D animation house building visuals for brands, films, and products.",
+  "url": "https://3tadstudio.com/",
+  "email": "3tad.nch@gmail.com",
+  "sameAs": [
+    "https://www.instagram.com/3tad_studio/",
+    "https://www.behance.net/3tad",
+    "https://www.artstation.com/art_3tad_studio"
+  ],
+  "areaServed": "Worldwide",
+  "serviceType": ["Video Editing", "Post-Production", "3D Animation", "3D Modeling"],
+  "knowsLanguage": ["en", "ar"]
+}
+</script>
+
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -144,6 +181,7 @@
     </a>
 
     <nav class="hidden md:flex items-center gap-10 font-mono text-xs uppercase tracking-widest text-muted">
+      <a href="#about" class="nav-link hover:text-ink transition-colors" data-section="about" data-i18n="nav_about">About</a>
       <a href="#services" class="nav-link hover:text-ink transition-colors" data-section="services" data-i18n="nav_services">Services</a>
       <a href="#work" class="nav-link hover:text-ink transition-colors" data-section="work" data-i18n="nav_work">Work</a>
       <a href="#contact" class="nav-link hover:text-ink transition-colors" data-section="contact" data-i18n="nav_contact">Contact</a>
@@ -166,6 +204,7 @@
   </div>
 
   <nav id="mobileNav" class="md:hidden border-t border-line px-6 flex flex-col gap-4 font-mono text-sm uppercase tracking-widest text-muted bg-bg">
+    <a href="#about" data-i18n="nav_about">About</a>
     <a href="#services" data-i18n="nav_services">Services</a>
     <a href="#work" data-i18n="nav_work">Work</a>
     <a href="#contact" data-i18n="nav_contact">Contact</a>
@@ -208,6 +247,35 @@
 
     <div class="absolute bottom-0 left-0 right-0 border-t border-line py-4 overflow-hidden">
       <div class="marquee-track font-mono text-[11px] md:text-xs tracking-widest text-muted" id="marqueeTrack"></div>
+    </div>
+  </section>
+
+  <section id="about" class="px-6 lg:px-10 py-28 md:py-36 border-t border-line">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-[1fr_1.1fr] gap-16">
+      <div class="reveal">
+        <p class="font-mono text-xs uppercase tracking-widest text-orange mb-3" data-i18n="about_eyebrow">Who we are</p>
+        <h2 class="font-display font-bold text-3xl md:text-5xl leading-tight" data-i18n="about_title">Built by editors and artists, not account managers</h2>
+      </div>
+
+      <div class="reveal space-y-6">
+        <p class="text-muted leading-relaxed" data-i18n="about_p1">3TAD Studio is an independent video editing and 3D animation house. We work directly with the people who shoot, direct, and brief — no layers, no hand-offs, no diluted feedback.</p>
+        <p class="text-muted leading-relaxed" data-i18n="about_p2">Every project moves through the same two disciplines: story-driven editing and dimensional 3D work, brought together under one roof so the look stays consistent from first cut to final render.</p>
+
+        <div class="grid sm:grid-cols-3 gap-px bg-line mt-10">
+          <div class="corner bg-bg p-6">
+            <p class="font-display font-semibold mb-2" data-i18n="value_1_title">Direct collaboration</p>
+            <p class="text-sm text-muted leading-relaxed" data-i18n="value_1_desc">You brief the people doing the work, not a manager relaying it.</p>
+          </div>
+          <div class="corner bg-bg p-6">
+            <p class="font-display font-semibold mb-2" data-i18n="value_2_title">One roof, two crafts</p>
+            <p class="text-sm text-muted leading-relaxed" data-i18n="value_2_desc">Editing and 3D live in the same pipeline, so nothing gets lost in translation.</p>
+          </div>
+          <div class="corner bg-bg p-6">
+            <p class="font-display font-semibold mb-2" data-i18n="value_3_title">Deadline-first</p>
+            <p class="text-sm text-muted leading-relaxed" data-i18n="value_3_desc">Delivery dates are treated as commitments, not estimates.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -290,6 +358,17 @@
       nav_services: "Services",
       nav_work: "Work",
       nav_contact: "Contact",
+      nav_about: "About",
+      about_eyebrow: "Who we are",
+      about_title: "Built by editors and artists, not account managers",
+      about_p1: "3TAD Studio is an independent video editing and 3D animation house. We work directly with the people who shoot, direct, and brief — no layers, no hand-offs, no diluted feedback.",
+      about_p2: "Every project moves through the same two disciplines: story-driven editing and dimensional 3D work, brought together under one roof so the look stays consistent from first cut to final render.",
+      value_1_title: "Direct collaboration",
+      value_1_desc: "You brief the people doing the work, not a manager relaying it.",
+      value_2_title: "One roof, two crafts",
+      value_2_desc: "Editing and 3D live in the same pipeline, so nothing gets lost in translation.",
+      value_3_title: "Deadline-first",
+      value_3_desc: "Delivery dates are treated as commitments, not estimates.",
       hero_eyebrow: "LIVE CUT",
       hero_headline_1: "Frame by frame.",
       hero_headline_2: "Vertex by vertex.",
@@ -320,6 +399,17 @@
       nav_services: "الخدمات",
       nav_work: "الأعمال",
       nav_contact: "تواصل معنا",
+      nav_about: "من نحن",
+      about_eyebrow: "من نحن",
+      about_title: "استوديو يبنيه المحررون والفنانون، لا مدراء الحسابات",
+      about_p1: "استوديو 3TAD هو دار مستقلة لمونتاج الفيديو والتحريك ثلاثي الأبعاد. نعمل مباشرة مع من يصوّر ويوجّه ويكتب الموجز، دون طبقات وسيطة أو ملاحظات مخفّفة.",
+      about_p2: "يمر كل مشروع بذات الحرفتين: مونتاج مبني على السرد وعمل ثلاثي الأبعاد مجسّم، تحت سقف واحد، بحيث يبقى الشكل البصري متسقًا من أول قصة إلى الرندر النهائي.",
+      value_1_title: "تعاون مباشر",
+      value_1_desc: "توجّه من يقوم بالعمل فعليًا، لا من ينقله فحسب.",
+      value_2_title: "سقف واحد، حرفتان",
+      value_2_desc: "يعمل المونتاج والتحريك ثلاثي الأبعاد ضمن مسار واحد، فلا يضيع شيء بينهما.",
+      value_3_title: "الموعد أولاً",
+      value_3_desc: "مواعيد التسليم التزام لا تقدير تقريبي.",
       hero_eyebrow: "بث مباشر",
       hero_headline_1: "إطارًا بعد إطار.",
       hero_headline_2: "تفصيلًا بعد تفصيل.",
@@ -455,7 +545,7 @@
 
   // active nav-link tracking
   const navLinks = document.querySelectorAll('.nav-link');
-  const sections = ['services', 'work', 'contact'].map(id => document.getElementById(id));
+  const sections = ['about', 'services', 'work', 'contact'].map(id => document.getElementById(id));
   const navObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
